@@ -10,11 +10,13 @@ Build the kernel module::
     $ make
 
 Insert the LKM module in the kernel:
+
     $ sudo insmod ftrace_hook.ko
 
 Remove the LKM module from the kernel:
+
     $ sudo rmmod ftrace_hook
 
-Kernel logs can be viewed like this::
+Kernel logs can be viewed like this:
 
     $ sudo dmesg --follow
